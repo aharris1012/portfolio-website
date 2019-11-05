@@ -228,7 +228,7 @@ input, select, textarea {
 		margin: 0 auto;
 		max-width: calc(100% - 50px);
 		width: 1200px;
-		background-color:lightseagreen;
+		background-color:rgba(156, 114, 175, 0.808);
 	}
 
 		.container.medium {
