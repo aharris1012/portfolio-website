@@ -174,8 +174,9 @@ input, select, textarea {
 		}
 
 	h2 {
-		font-size: 2em;
+		font-size: 1.3rem;
 		letter-spacing: -0.015em;
+
 	}
 
 	h3 {
@@ -202,6 +203,7 @@ input, select, textarea {
 
 	p, ul, ol, dl, table {
 		margin-bottom: 2em;
+		font-size:1.2rem;
 	}
 
 	header {
@@ -220,6 +222,11 @@ input, select, textarea {
 
 		footer > p {
 			font-size: 1.25em;
+		}
+    i {
+		font-size: 2rem;
+		color: #838b8b;
+
 		}
 
 /* Container */
@@ -1396,7 +1403,7 @@ input, select, textarea {
 				}
 
 				.row > .col-12-small {
-					width: 100%;
+					width: 50%;
 				}
 
 				.row > .off-12-small {
@@ -1725,8 +1732,8 @@ input, select, textarea {
 		input[type="reset"].alt,
 		button.alt,
 		.button.alt {
-			background-color: #444;
-			box-shadow: inset 0px 0px 0px 1px #242424, inset 0px 2px 1px 0px rgba(255, 255, 255, 0.2);
+			background-color: #f4f4f4;
+			box-shadow: inset 0px 0px 0px 1px gray, inset 0px 2px 1px 0px rgba(255, 255, 255, 0.2);
 		}
 
 			input[type="button"].alt:hover,
@@ -2010,8 +2017,8 @@ input, select, textarea {
 		}
 
 		.wrapper.style4 {
-			background-color: #303030;
-			color: #999;
+			background-color: #f4f4f4;
+			color: whitesmoke;
 			text-shadow: -1px -1px 0px #181818;
 		}
 
@@ -2418,6 +2425,7 @@ input, select, textarea {
 
 				#top p {
 					font-size: 1em;
+					color:gray;
 				}
 
 			#contact footer {
